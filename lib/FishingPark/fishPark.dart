@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/FishingPark/imagens.dart';
 import 'package:flutter_guiaitape/botao.dart';
+import 'package:flutter_guiaitape/FishingPark/maps.dart';
 
 
 class fishPark extends StatefulWidget {
@@ -43,7 +44,7 @@ class _fishParkState extends State<fishPark> {
                   Text(""),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
 
 
                 ],
@@ -52,9 +53,13 @@ class _fishParkState extends State<fishPark> {
         ],
       ),
     );
+  }
 
-
-
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
   }
 
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/Catedral/imagens.dart';
 import 'package:flutter_guiaitape/botao.dart';
+import 'package:flutter_guiaitape/Catedral/maps.dart';
 
 
 class catedral extends StatefulWidget {
@@ -44,7 +45,7 @@ class _catedralState extends State<catedral> {
                   Text("A Catedral é um templo de estilo românico, com formato de cruz latina, com uma torre do lado direito e o batistério do lado esquerdo. Além disso, a Nossa Senhora dos Prazeres é a santa padroeira da cidade."),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
                 ],
               )
           ),
@@ -52,4 +53,14 @@ class _catedralState extends State<catedral> {
       ),
     );
   }
+
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
+  }
+
+
+
 }

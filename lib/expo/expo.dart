@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/expo/imagens.dart';
 import 'package:flutter_guiaitape/botao.dart';
+import 'package:flutter_guiaitape/expo/maps.dart';
 
 class expo extends StatefulWidget {
   @override
@@ -42,7 +43,7 @@ class _expoState extends State<expo> {
                   Text(""),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
                 ],
               )
           ),
@@ -51,5 +52,12 @@ class _expoState extends State<expo> {
     );
   }
 
+
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
+  }
 
 }

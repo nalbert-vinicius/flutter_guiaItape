@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/Memorial/imagens.dart';
 import 'package:flutter_guiaitape/botao.dart';
+import 'package:flutter_guiaitape/Memorial/maps.dart';
 
 class memorial extends StatefulWidget {
   @override
@@ -42,7 +43,7 @@ class _memorialState extends State<memorial> {
                   Text(""),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
 
 
                 ],
@@ -51,9 +52,13 @@ class _memorialState extends State<memorial> {
         ],
       ),
     );
-
-
-
   }
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
+  }
+
 
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/MuseuF/imagens.dart';
 import 'package:flutter_guiaitape/botao.dart';
+import 'package:flutter_guiaitape/MuseuF/maps.dart';
 
 
 class museuf extends StatefulWidget {
@@ -43,16 +44,20 @@ class _museufState extends State<museuf> {
                   Text(""),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
                 ],
               )
           ),
         ],
       ),
     );
+  }
 
-
-
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
   }
 
 }

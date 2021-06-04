@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/botao.dart';
 import 'imagens.dart';
-
+import 'package:flutter_guiaitape/belive/maps.dart';
 
 class belive extends StatefulWidget {
   @override
@@ -44,7 +44,7 @@ class _beliveState extends State<belive> {
                   Text(""),
                   Text(""),
                   Text(""),
-                  Botao("Localização")
+                  Botao("Localização", onPressed: _maps,)
                 ],
               )
           ),
@@ -52,4 +52,12 @@ class _beliveState extends State<belive> {
       ),
     );
   }
+
+  _maps() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Maps()),
+    );
+  }
+
 }
