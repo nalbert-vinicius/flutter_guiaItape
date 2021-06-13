@@ -42,7 +42,7 @@ class _catedralState extends State<catedral> {
                   ),
                   Text(""),
                   Text(""),
-                  Text("A Catedral é um templo de estilo românico, com formato de cruz latina, com uma torre do lado direito e o batistério do lado esquerdo. Além disso, a Nossa Senhora dos Prazeres é a santa padroeira da cidade."),
+                  Text("A Catedral é um templo de estilo românico, com formato de cruz latina, com uma torre do lado direito e o batistério do lado esquerdo. Além disso, a Nossa Senhora dos Prazeres é a santa padroeira da cidade. São mais de dois mil metros quadrados de construção. O lançamento da pedra fundamental da igreja foi em 16 de setembro de 1945, por Dom José Carlos de Aguirre e o Padre Antonio Brunetti, que foi o idealizador da obra. O projeto da igreja é do arquiteto Benedito Calixto de Jesus Neto, autor de mais de 300 projetos de igrejas no Brasil, inclusive a Basília Nacional de Nossa Senhora Aparecida, em Aparecida (SP), considerada a maior igreja do Brasil."),
                   Text(""),
                   Text(""),
                   Botao("Localização", onPressed: _maps,)

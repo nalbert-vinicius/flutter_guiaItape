@@ -39,7 +39,7 @@ class _expoState extends State<expo> {
                     ),
                   ),
                   Text(""),
-                  Text(" A Expoagro é sem duvida um Patrimônio de Itapetininga, cidade tradicionalmente ligada a Agropecuária e certa tradição Gaucha pela sua proximidade com a Região Sul. Excelente Parque de Diversões, Exposição Completa de Criadores de Bovinos, Equinos, Muares, Ovinos etc. Merece uma visita."),
+                  Text(" A Expoagro é sem duvida um Patrimônio de Itapetininga, cidade tradicionalmente ligada a Agropecuária e certa tradição Gaucha pela sua proximidade com a Região Sul. Excelente Parque de Diversões, Exposição Completa de Criadores de Bovinos, Equinos, Muares, Ovinos etc. Merece uma visita. O evento acontecerá no Recinto de Exposições “Acácio de Moraes Terra” com área de 360.000 m2, dotado de toda infra-estrutura, compatível aos grandes centros, tem capacidade para 3.000 animais, 160 empresas comerciais e recebe, durante o evento, em torno de 300.000 visitantes e participação total de 800 expositores oriundos de várias partes do país."),
                   Text(""),
                   Text(""),
                   Text(""),

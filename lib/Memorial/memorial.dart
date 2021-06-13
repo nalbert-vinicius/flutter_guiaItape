@@ -39,7 +39,7 @@ class _memorialState extends State<memorial> {
                     ),
                   ),
                   Text(""),
-                  Text("         O Fishing Park é um lugar completo para você e sua família. Já pensou em um parque que ofereça pescaria, piscinas com parque aquático, campo de vôlei, campo de mallet-golf com 36 buracos, playground, tudo isso em um só lugar ? Esse é o Fishing Park. Fundado em 1997 numa área de 66 hectares, o parque ganhou destaque na região de Itapetininga –SP por ser único. A melhor estrutura cercada pela mais bela paisagem.\n No Fishing Park você e sua família podem desfrutar de várias atrações. Planejado para oferecer lazer para toda família, o Fishing Park possuí piscinas com parque aquático para que a diversão seja completa. Entre uma atração e outra, nada melhor que relaxar e se divertir em nossas piscinas."),
+                  Text("O Monumento aos Prestes de Albuquerque, localizado na Praça do antigo Fórum, na Avenida Peixoto Gomide, no centro da cidade, homenageia o Coronel Fernando Prestes de Albuquerque e seu filho, o itapetiningano Júlio Prestes de Albuquerque. Uma homenagem que o seu povo fez aos seus ilustres representantes políticos de expressão estadual e nacional. Esse monumento é uma obra do escultor Luiz Marrone e que foi inaugurada no dia 5 de novembro de 1953. O monumento é composto por um hemiciclo e uma coluna ao centro. Com mais de três metros de altura e todo em granito, ele contém placas de bronze representando o legado deixado por ambos como políticos."),
                   Text(""),
                   Text(""),
                   Text(""),

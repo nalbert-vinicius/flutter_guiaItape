@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_guiaitape/botao.dart';
 import 'package:flutter_guiaitape/FishingPark/fishPark.dart';
-import 'package:flutter_guiaitape/belive/belive.dart';
 import 'package:flutter_guiaitape/expo/expo.dart';
 import 'package:flutter_guiaitape/centro/centro.dart';
 import 'package:flutter_guiaitape/MuseuF/museu.dart';
@@ -46,7 +45,6 @@ class _TelaInicialState extends State<TelaInicial> {
           Text(""),
           Botao("EXPO AGRO ITAPETININGA",onPressed: _expo,),
           Text(""),
-          Botao("Believe Club", onPressed: _belive,),
         ],
       ),
     );
@@ -59,12 +57,6 @@ class _TelaInicialState extends State<TelaInicial> {
     );
   }
 
-  _belive() {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => belive()),
-    );
-  }
 
   _expo() {
     Navigator.push(

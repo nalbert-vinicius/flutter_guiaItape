@@ -26,33 +26,6 @@ class imagens extends StatelessWidget {
                         fit: BoxFit.cover
                     )
                 ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    Text('Venha conhecer!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Lindo d++!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Merece nota 10!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                  ],
-                ),
               ),
               Container(
                 width: 400.0,
@@ -63,33 +36,6 @@ class imagens extends StatelessWidget {
                         image: AssetImage("img/catedral/catedral2.jpg"),
                         fit: BoxFit.cover
                     )
-                ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    Text('Venha conhecer!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Lindo d++!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Merece nota 10!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                  ],
                 ),
               ),
               Container(
@@ -102,33 +48,7 @@ class imagens extends StatelessWidget {
                         fit: BoxFit.cover
                     )
                 ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    Text('Venha conhecer!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Lindo d++!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                    Text('Merece nota 10!',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18.0
-                      ),
-                    ),
-                  ],
-                ),
+
               )
             ]
         )
